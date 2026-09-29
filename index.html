@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio de Fernando Torres</title>
+
+    <style>
+
+        /* ===== ESTILO GENERAL ===== */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f4f6;
+            margin: 0;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+
+        /* ===== ENCABEZADO ===== */
+
+        header {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 17px;
+        }
+
+
+        /* ===== TARJETAS ===== */
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h2 {
+            color: #17365d;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        .card h3 {
+            color: #1f2937;
+            margin-top: 25px;
+        }
+
+
+        /* ===== FOTO ===== */
+
+        .imagen-perfil{
+	display:block;
+	margin:auto;
+	width:200px;
+	border-radius:50%;
+	margin-bottom:20px;
+	}
+
+	.imagen-trabajo{
+	width:100%;
+	max-width:600px;
+	display:block;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-radius:8px; }
+
+
+        /* ===== ENLACES ===== */
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* ===== BOTÓN CV ===== */
+
+        .cv {
+            display: inline-block;
+            background: #17365d;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .cv:hover {
+            background: #17365d;
+            text-decoration: none;
+        }
+
+
+        /* ===== SEPARADORES ===== */
+
+        .proyecto {
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .proyecto:last-child {
+            border-bottom: none;
+        }
+
+
+        /* ===== LISTAS ===== */
+
+        ul {
+            padding-left: 25px;
+        }
+
+
+        /* ===== PIE DE PÁGINA ===== */
+
+        footer {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+
+
+
+<header>
+
+    <h1>Portafolio de Fernando Torres</h1>
+    <!--❌
+    <p>
+        Análisis de datos · Python · SQL · Machine Learning
+    </p>
+    ❌-->
+</header>
+
+
+
+
+
+
+<div class="contenedor">
+
+<!-- ==================== PRESENTACIÓN ==================== -->
+
+    <section class="card">
+
+        <img src="imagenes/imagen_perfil.jpg" class="imagen-perfil">
+	<h2>Sobre mí</h2>
+        <p>
+            Bienvenidos a la página de Fernando Torres. Soy estudiante de la UNAM en proceso de titulación y estoy muy interesado en las nuevas tecnologías. Estoy orientando mi perfil profesional al análisis de datos con Python, SQL y Machine Learning.
+        </p>
+        <p>
+Actualmente estoy fortaleciendo principalmente mis conocimientos en Python, SQL y Machine Learning con prácticas y cursos. A continuación muestro mis proyectos y prácticas.
+        </p>
+
+        <h3>Información</h3>
+
+        <p>
+	    Tengo 28 años<br>
+	    Vivo en CDMX<br>
+            Celular: 55-4547-1533<br>
+            Correo: <a href="mailto:fernandotorresvazquez90@gmail.com">
+            fernandotorresvazquez90@gmail.com</a>
+        </p>
+
+        <a href="CV Torres Fernando.pdf" class="cv" download>
+            Descargar Resumen CV
+        </a>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ==================== Machine Learning, Python, SQL  ==================== -->
+<section class="card">
+        <h2>Machine Learning</h2>
+	<p>
+	    Me encuentro en formación en Machine Learning, donde he estudiado los fundamentos del aprendizaje supervisado y no supervisado, así como el proceso de preparación, entrenamiento y evaluación de modelos predictivos.
+	</p>
+	<p>
+	    He estado trabajado con técnicas de exploración y procesamiento de datos, tratamiento de valores faltantes, codificación de variables categóricas, escalamiento y creación de pipelines. También he estudiado algoritmos de regresión y clasificación, como regresión lineal y logística, árboles de decisión, Random Forest y máquinas de vectores de soporte (SVM).
+	</p>
+	<p>
+	    He aprendido sobre la evaluación y optimización de modelos mediante métricas de desempeño, validación cruzada, ajuste de hiperparámetros y análisis de errores, utilizando Python y bibliotecas como Pandas y Scikit-learn.
+	</p>
+	<p>
+	    Asimismo hice un curso en Ciencia de Datos impartido por el IIMAS. Tuvo una duración de un mes y las clases fueron en línea.
+	</p>
+	<img src="imagenes/imagen_machinelearning.png" class="imagen-trabajo">
+        <a href="Constancia Ciencia de Datos Torres Fernando IIMAS.pdf" class="cv" download>
+            Descargar Constancia IIMAS
+        </a>
+</section>
+
+
+
+<section class="card">
+        <h2>Análisis de datos con Python</h2>
+        <p>
+            Realicé un análisis exploratorio de datos utilizando las bibliotecas Pandas, NumPy, Matplotlib y Seaborn, a partir de una base de datos sobre precios de viviendas.
+
+Durante esta práctica trabajé con la limpieza, manipulación y exploración de datos, estadística descriptiva y visualización con histogramas, diagramas de dispersión y diagramas de caja. También elaboré matrices de correlación para identificar relaciones entre las características de las viviendas y sus precios de venta.
+        </p>
+        <img src="imagenes/imagen_python.png" class="imagen-trabajo">
+        <p>
+            <a href="https://www.youtube.com/watch?v=zsZcIkoLZx8" target="_blank">
+                Ver video de “Python #1” en YouTube
+            </a>
+        </p>
+	<p>
+	    También hice un curso en línea impartido por A2
+	</p>
+        <a href="Certificado Python Torres Fernando A2.pdf" class="cv" download>
+            Descargar Certificado A2
+        </a>
+</section>
+
+
+
+<section class="card">
+        <h2>Análisis de datos con SQL</h2>
+        <p>
+            He realizado ejercicios y prácticas con SQL y MySQL, trabajando con consultas sobre una y varias tablas, filtros, operadores, ordenamiento y JOIN.
+        </p>
+        <img src="imagenes/imagen_sql.png" class="imagen-trabajo">
+        <p>
+            <a href="https://www.youtube.com/@fernandotorresvazquez90" target="_blank">
+                Ver video de “SQL #1” en YouTube
+            </a>
+        </p>
+	<p>
+	    También hice un curso en línea impartido por A2
+	</p>
+        <a href="Certificado SQL Torres Fernando A2.pdf" class="cv" download>
+            Descargar Certificado A2
+        </a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ==================== EXCEL Y POWER BI ==================== -->
+<section class="card">
+	<h2>Power BI y Excel</h2>
+        <p>
+            Además de las áreas en las que estoy concentrando mi desarrollo profesional, también he realizado prácticas utilizando otras herramientas para el análisis. Para Power BI he realizado practicas con Power Query, Power Pivot y medidas DAX.
+	    Dejo links abajo donde muestro mis practicas en YouTube.
+        </p>
+
+        <img src="imagenes/imagen_powerbi.png" class="imagen-trabajo">
+
+        <p>
+            <a href="https://youtu.be/P11hb4OWEr4?si=cyzZ1kNuVv2DlENI" target="_blank">
+                Ver video de “Power Query #1” en YouTube
+            </a>
+        </p>
+
+        <p>
+            <a href="https://youtu.be/jWCagGbbHww?si=INYbr2nSGh8R2CWl" target="_blank">
+                Ver video de “Power Pivot #1” en YouTube
+            </a>
+        </p>
+
+        <p>
+            <a href="https://youtu.be/1283CYQxn8E?si=P1szC6Ub9Z2eYevr" target="_blank">
+                Ver video de “Power Pivot #2” en YouTube
+            </a>
+        </p>
+
+
+
+
+
+        <!--❌
+        <p>
+            Aquí he realizado ordenamiento de datos e hice uso de tablas dinámicas.
+        </p>
+
+        <img src="imagenes/imagen_excel.png" class="imagen-trabajo">
+
+        <p>
+            <a href="#">
+                Ver video de “Excel #2” en YouTube
+            </a>
+        </p>
+        ❌-->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ==================== R SHINY ==================== -->
+<section class="card">
+    <h2>R Shiny</h2>
+        <h3>App Shiny 1 | Indicadores de producción científica</h3>
+
+
+        <p>
+Desarrollé esta aplicación durante mi servicio social en el IIMAS utilizando R y R Shiny
+        </p>
+
+
+
+        <p>
+            La aplicación utiliza la base de datos
+	    <a href="https://zenodo.org/records/16748908" target="_blank">
+                NanoMx_hasta2024_v2.xlsx
+            </a>
+	    para graficar la información sobre la producción de documentos científicos relacionados con las nanociencias en México. Las gráficas se muestran en el lado derecho de la página y en el lado izquierdo se ha colocado un panel para filtrar por año, sexo, institución, etc. La app fue desarrollada durante aproximadamente seis meses. Ya ha sido publicada dentro de la página oficial del proyecto institucional PAPIIT IN302623.
+        </p>
+
+
+        <p>
+Para abrir la app solo da clic en los enlaces de "Ver primera app" o "Ver página del proyecto". Te llevará al sitio y solo debes esperar un momento a que cargue, después solo das clic en el botón [Actualizar página]. En caso de que se presente el mensaje 
+	    <span style="color:red;">Error: An error has occurred. Check your logs</span>, 
+	    solo debes volver a dar clic en el botón [Actualizar página].
+        </p>
+
+
+
+
+
+
+
+
+        <img src="imagenes/imagen_shiny1.png" class="imagen-trabajo">
+
+        <p>
+            <a href="https://fernandotorresvazquez90.shinyapps.io/app1_nano/" target="_blank">
+                Ver primera app en shinyapps.io
+            </a>
+        </p>
+
+        <p>
+            <a href="https://mmss.iimas.unam.mx/proyectos/indicadorescyt/resultados_covid19/" target="_blank">
+                Ver página del proyecto institucional PAPIIT IN302623
+            </a>
+        </p>
+        <p>
+            <a href="https://github.com/fernandotorres90/RShiny_app1nano/blob/main/server.R" target="_blank">
+                Ver código en mi Git
+            </a>
+        </p>
+
+        <!--❌
+        <p>
+            <a href="#">
+                Video explicación en YouTube
+            </a>
+        </p>
+        ❌-->
+
+
+
+
+	<br>
+        <h3>App Shiny 2 | Visualización dinámica de datos</h3>
+
+        <p>
+            Esta segunda aplicación tiene la misma idea de leer una base de datos con la diferencia 
+            que no está sujeta a aceptar columnas especificas, sino que es dinámica y acepta cualquier 
+            base de datos, por tanto, en la lista desplegable se mostrarán todas las columnas que el archivo incluya.
+	    Como muestra se decidió utilizar una
+            <a href="https://learn.microsoft.com/es-es/power-bi/create-reports/sample-financial-download" target="_blank">
+                base de datos financieros
+            </a>
+	    que Microsoft ofrece para realizar pruebas.
+        </p>
+
+        <img src="imagenes/imagen_shiny2.png" class="imagen-trabajo">
+
+        <p>
+            <a href="https://fernandotorresvazquez90.shinyapps.io/app4_ventas/" target="_blank">
+                Ver segunda app en shinyapps.io
+            </a>
+        </p>
+        <p>
+            <a href="https://github.com/fernandotorres90/RShiny_app2ventas/blob/main/server.R" target="_blank">
+                Ver código en mi Git
+            </a>
+        </p>
+
+        <!--❌
+        <p>
+            <a href="#">
+                Video explicación en YouTube
+            </a>
+        </p>
+        ❌-->
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ==================== OTROS CONOCIMIENTOS ==================== -->
+<section class="card">
+    <h2>Otros conocimientos</h2>
+    <h3>Finanzas</h3>
+    <p>
+        Durante la carrera realicé prácticas relacionadas con Estados financieros (balance general, estado de resultados, flujo de Efectivo), razones financieras, matemáticas financieras, etc. También revisamos teoría sobre mercados financieros, banca central, inflación, etc.
+    </p>
+
+    <h3>Diseño de bases de datos</h3>
+    <p>
+        Cuento con conocimientos generales sobre el diseño y estructuración
+        de bases de datos.
+    </p>
+
+    <h3>Ingeniería de software - DGTIC (becario)</h3>
+    <p>
+        Realicé un Diplomado en Ingeniería de Software en la DGTIC, donde adquirí conocimientos básicos sobre el proceso de desarrollo de paginas web, incluyendo requerimientos, diseño ux/ui, bases de datos y desarrollo en el framework de Laravel.
+    </p>
+
+    <h3>Proyecto institucional SIIAJ - DGTIC (becario)</h3>
+    <p>
+        Como parte del diplomado anterior, participé en la gestión de la página web Sistema Integral de Información Académica Juriquilla (SIIAJ) para el Campus Juriquilla de la UNAM.
+    </p>
+    <p>
+Mis actividades incluyeron administración de requerimientos, documentación, seguimiento de flujos de trabajo, pruebas de software y reuniones con clientes para revisar los avances del proyecto.<br>
+                <a href="https://siiaj.enesjuriquilla.unam.mx/" target="_blank">
+                    Ver página del proyecto institucional SIIAJ
+                </a>
+    </p>
+
+
+    <h3>Inglés</h3>
+    <p>
+        Intermedio, B1
+    </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="card">
+
+        <h2>Resumen</h2>
+
+        <ul>
+
+            <li>
+                <strong>Estudiante de Licenciatura en la UNAM</strong><br>
+                Desde agosto de 2021 - En proceso de titulación
+            </li>
+
+            <br>
+
+            <li>
+                <strong>Diplomado Ingeniería de Software - DGTIC (becario)</strong><br>
+                Septiembre 2023 - Febrero 2024<br>
+                Capacitación para la creación de páginas web básicas utilizando el framework Laravel-livewire 
+                con lenguaje de programación PHP y PostgreSQL para bases de datos. Después dentro del mismo diplomado, formé parte de la gestión de la página web Sistema Integral de Información Académica Juriquilla (SIIAJ), donde administré requerimientos y tuve reuniones con clientes.<br>
+                <a href="https://siiaj.enesjuriquilla.unam.mx/" target="_blank">
+                    Ver página del proyecto institucional SIIAJ
+                </a>
+            </li>
+
+            <br>
+
+            <li>
+                <strong>Proyecto institucional PAPIIT IN302623 - IIMAS (servicio social)</strong><br>
+                Agosto 2025 - Febrero 2026<br>
+                Desarrollé una app interactiva mediante el uso del lenguaje de programación R y la herramienta R Shiny.
+                <br>
+
+                <a href="https://mmss.iimas.unam.mx/proyectos/indicadorescyt/resultados_covid19/" target="_blank">
+                    Ver página del proyecto institucional PAPIIT IN302623
+                </a>
+
+            </li>
+
+            <br>
+
+            <li>
+                <strong>Curso-Taller de Ciencia de Datos - IIMAS</strong><br>
+                Agosto 2026 - septiembre 2026<br>
+                Hice un Curso-Taller de Ciencia de Datos impartido por el IIMAS. Tuvo una duración de un mes y las clases fueron en línea. Incluyendo temas desde análisis de datos con Python hasta Machine Learning.
+            </li>
+
+            
+
+        </ul>
+
+</section>
+</div>
+
+
+
+
+
+
+<footer>
+    <p>Portafolio de Fernando Torres · 2026</p>
+</footer>
+
+</body>
+</html>
